@@ -1,0 +1,58 @@
+.contact-us {
+    padding: 2rem 1rem;
+    background-color: grey;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:7px
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin:40px;
+    margin-bottom: 7%;
+  }
+  
+  .contact-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 0.5rem;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .contact-label {
+    font-size: 0.875rem;
+    color: #777;
+  }

@@ -1,0 +1,43 @@
+/* FAQ */
+.faq-section {
+  /* padding: 3rem 4rem; */
+  padding: 1rem 7rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 290px;
+}
+
+.section-title {
+  font-size: 22rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-item {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+}
+
+.faq-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #007bff;
+  /* Customize the color of the dot */
+  line-height: 1;
+}
